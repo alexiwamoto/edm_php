@@ -1,0 +1,23 @@
+p{
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 14px;
+}
+
+#image{
+	background-color: #369;
+}
+
+#bold{
+	margin:.4em 0 .8em 0;
+	padding:0;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#bold2{
+	margin:.4em 0 .8em 0;
+	padding:0;
+	font-weight: bold;
+	font-size: 16px;
+}
+

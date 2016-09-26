@@ -1,0 +1,62 @@
+html, body {
+	height: 100%;
+	}
+
+#tudo {
+	min-height: 100%;	
+	}
+
+* html #tudo {
+	height: 100%; /* hack para IE6 que trata height como min-height */
+	}
+
+#topo{	
+	width: 100%; 
+	height: 100px;	
+	clear: both;	
+}
+
+#topo img{	
+	margin:20px;
+	
+	height: 60%;
+	width: 9%;
+}
+
+#logo{
+	background:#369;
+}
+
+#meio{
+	width: 100%;
+	background-color: #fff;
+	height: 100%;
+}
+
+#conteudo{
+	height: 100%;
+	padding: 10px;
+	width: 100%;
+	float:left;
+	background-color: #fff;
+	position: relative;
+}
+
+#tabela{
+	position:relative;
+}
+
+#rodape{
+	background:#369;
+	clear: both;
+	text-align: center;
+	padding: 10px; /*cor de fundo*/
+	z-index:99999;
+	position:relative;
+	bottom: -10px;
+	width:100%;
+}
+
+#rodape *{
+	color: #fff;
+}
